@@ -1,0 +1,306 @@
+body {
+
+    position: relative;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.top-container {
+    background-color: #B0DEFF;
+}
+
+
+.cloud1 {
+
+    position: relative;
+    top: 350px;
+    right: 110px;
+    display: inline;
+
+}
+
+.cloud2 {
+    display: inline;
+    position: relative;
+    top: 320px;
+    left: 60px;
+
+
+}
+
+
+
+h1 {
+    display: block;
+    text-align: center;
+
+    font-family: "sacramento", sans-serif;
+
+    font-size: 5em;
+
+    color: #03256C;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    color: #1768AC;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+
+.road {
+
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding-bottom: 100px;
+
+
+
+
+}
+
+.profile_container {
+
+    width: 25%;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    font-family: "montserrat", sans-serif;
+    line-height: 1.5em;
+
+    color: #506D84;
+}
+
+.my_photo {
+    width: 25%;
+    margin: 20px auto 0 auto;
+
+
+}
+
+.profile {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hr {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    border-top: 0.3em dotted #A2DBFA;
+    border-bottom: 0in rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    width: 2%;
+}
+
+.stocks {
+    width: 8%;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+
+}
+
+h3 {
+
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.0em;
+    margin-bottom: 0px;
+
+
+}
+
+.skills {
+    width: 75%;
+    font-family: "montserrat", sans-serif;
+
+    line-height: 1.5em;
+    color: #506D84;
+
+    font-size: 1.0em;
+    font-weight: normal;
+    margin: 0 auto 0 auto;
+}
+
+.skill1 {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0px;
+}
+
+.communicating {
+    width: 6%;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-right: 7px;
+    margin-left: 12px;
+}
+
+.skill2 {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0px;
+}
+
+.wine {
+    width: 6%;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-right: 7px;
+    margin-left: 12px;
+}
+
+.skill3 {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0px;
+}
+
+.contact {
+    width: 50%;
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+    line-height: 1.5em;
+    color: #506D84;
+
+    font-size: 1.0em;
+    font-weight: normal;
+    margin: 0 auto 0 auto;
+}
+
+.contact1 {
+    text-align: center;
+    font-size: 1.0em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+a.button {
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #548CFF;
+    font-family: "merriweather", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border-color: none;
+    border-style: none;
+    transition: all 0.5s;
+
+
+}
+
+button {
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #548CFF;
+    font-family: "merriweather", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border-color: none;
+    border-style: none;
+    transition: all 0.5s;
+
+
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.footer {
+    background-color: #548CFF;
+    padding: 0px;
+}
+
+.social_media {
+    color: #84DFFF;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.social_media:hover {
+    opacity: 10;
+    cursor: pointer;
+    color: #506D84;
+}
+
+footer {
+    font-size: 0.7em;
+    font-family: "montserrat", sans-serif;
+    color: white;
+    margin-top: 3px;
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 20px;
+  width: 75%;
+  background-color: #B0DEFF;
+  margin: 30px auto 0 auto;
+  font-family: "montserrat", sans-serif;
+  line-height: 1.5em;
+  color: #506D84;
+}
+
+.form-container{
+  text-align:left;
+  text-justify: inter-word;
+  width: 90%;
+
+}
+
+.contact-input{
+  width: 100%;
+  padding: 12px;
+  font-family: "merriweather", sans-serif;
+  font-size: 1.0em;
+  color: #506D84;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
